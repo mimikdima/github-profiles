@@ -1,0 +1,12 @@
+<div class="toolbar" routerLink="">
+  <img width="70" src="./assets/github_logo.png" alt="GitHub Logo"/>
+  <a class="spacer" (click)="logout()">LogOut</a>
+</div>
+<div class="d-flex" id="wrapper" >
+  <app-sidebar></app-sidebar>
+
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+
+</div>
